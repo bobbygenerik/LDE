@@ -1,0 +1,9 @@
+[package]
+name = "kevyt_compositor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kevyt_shared = { path = "../shared" }
+smithay = "0.4"
+smithay-drm-extras = "0.1"
